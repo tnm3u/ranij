@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecureLife Store - Premium Insurance Products</title>
+
+  <!-- ✅ Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-blue-900">SecureLife<span class="text-yellow-500">Store.</span></h1>
+      <nav class="hidden md:flex space-x-8 font-medium">
+        <a href="index.html" class="hover:text-blue-700">Home</a>
+        <a href="#products" class="hover:text-blue-700">Products</a>
+        <a href="#contact" class="hover:text-blue-700">Support</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <button class="relative">
+          <span class="absolute -top-2 -right-2 bg-yellow-500 text-xs text-blue-900 font-bold px-2 py-0.5 rounded-full">2</span>
+          🛒
+        </button>
+        <a href="#contact" class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16 text-center">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-4">Premium Insurance & Safety Essentials</h2>
+      <p class="text-gray-200 max-w-2xl mx-auto mb-6">
+        Explore our exclusive range of products that complement your lifestyle and protection — from policy add-ons to safety merchandise.
+      </p>
+      <input type="text" placeholder="Search products..." class="w-full max-w-md p-3 rounded-lg text-blue-900 focus:ring-2 focus:ring-yellow-400 focus:outline-none" />
+    </div>
+  </section>
+
+  <!-- PRODUCT GRID -->
+  <section id="products" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex justify-between items-center mb-10">
+        <h3 class="text-3xl font-bold text-blue-900">Our Products</h3>
+        <select class="p-3 border rounded-lg text-gray-700">
+          <option>Sort by: Featured</option>
+          <option>Price: Low to High</option>
+          <option>Price: High to Low</option>
+        </select>
+      </div>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+
+        <!-- PRODUCT CARD 1 -->
+        <div class="bg-gray-50 border rounded-xl shadow-sm hover:shadow-lg transition">
+          <img src="https://cdn.pixabay.com/photo/2017/01/31/13/14/insurance-2023610_1280.png" alt="Health Policy Kit" class="w-full rounded-t-xl">
+          <div class="p-5">
+            <h4 class="font-semibold text-blue-800 mb-2">HealthSecure Policy Kit</h4>
+            <p class="text-gray-600 text-sm mb-3">Includes policy documents, user guides, and ID protection accessories.</p>
+            <p class="font-bold text-blue-900 mb-3">₹1,499</p>
+            <div class="flex justify-between items-center">
+              <button class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">Add to Cart</button>
+              <button class="border border-blue-700 text-blue-700 px-4 py-2 rounded-lg hover:bg-blue-700 hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCT CARD 2 -->
+        <div class="bg-gray-50 border rounded-xl shadow-sm hover:shadow-lg transition">
+          <img src="https://cdn.pixabay.com/photo/2018/01/18/21/24/business-3098972_1280.jpg" alt="Life Policy Kit" class="w-full rounded-t-xl">
+          <div class="p-5">
+            <h4 class="font-semibold text-blue-800 mb-2">LifeSecure Gift Pack</h4>
+            <p class="text-gray-600 text-sm mb-3">Includes plan overview booklet, premium calculator, and benefits card.</p>
+            <p class="font-bold text-blue-900 mb-3">₹1,299</p>
+            <div class="flex justify-between items-center">
+              <button class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">Add to Cart</button>
+              <button class="border border-blue-700 text-blue-700 px-4 py-2 rounded-lg hover:bg-blue-700 hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCT CARD 3 -->
+        <div class="bg-gray-50 border rounded-xl shadow-sm hover:shadow-lg transition">
+          <img src="https://cdn.pixabay.com/photo/2016/11/21/12/59/car-insurance-1846641_1280.jpg" alt="Vehicle Insurance" class="w-full rounded-t-xl">
+          <div class="p-5">
+            <h4 class="font-semibold text-blue-800 mb-2">AutoSecure Protection Pack</h4>
+            <p class="text-gray-600 text-sm mb-3">Get a physical welcome kit with stickers, documents, and claim info card.</p>
+            <p class="font-bold text-blue-900 mb-3">₹999</p>
+            <div class="flex justify-between items-center">
+              <button class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">Add to Cart</button>
+              <button class="border border-blue-700 text-blue-700 px-4 py-2 rounded-lg hover:bg-blue-700 hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCT CARD 4 -->
+        <div class="bg-gray-50 border rounded-xl shadow-sm hover:shadow-lg transition">
+          <img src="https://cdn.pixabay.com/photo/2018/02/02/22/30/umbrella-3123607_1280.jpg" alt="Family Protection Plan" class="w-full rounded-t-xl">
+          <div class="p-5">
+            <h4 class="font-semibold text-blue-800 mb-2">Family Protection Bundle</h4>
+            <p class="text-gray-600 text-sm mb-3">Bundle plan guide with wellness voucher and SecureLife merchandise.</p>
+            <p class="font-bold text-blue-900 mb-3">₹1,899</p>
+            <div class="flex justify-between items-center">
+              <button class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">Add to Cart</button>
+              <button class="border border-blue-700 text-blue-700 px-4 py-2 rounded-lg hover:bg-blue-700 hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="py-16 bg-blue-900 text-white text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-4">Need Help Choosing the Right Product?</h3>
+      <p class="text-gray-200 mb-8">Our team is here to guide you through the best options for your lifestyle and coverage goals.</p>
+      <a href="#contact" class="bg-yellow-400 text-blue-900 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300">📞 Contact Support</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-10">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+      <div>
+        <h4 class="text-white font-semibold mb-3">SecureLife Store</h4>
+        <p>Corporate-quality insurance merchandise and digital products for your peace of mind.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#products" class="hover:text-white">Products</a></li>
+          <li><a href="#contact" class="hover:text-white">Support</a></li>
+          <li><a href="index.html" class="hover:text-white">Home</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Resources</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-white">Refund Policy</a></li>
+          <li><a href="#" class="hover:text-white">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Contact Us</h4>
+        <p>Email: store@securelife.com</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+    </div>
+    <div class="text-center mt-10 text-gray-500 text-sm">
+      © 2025 SecureLife Store. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+  </html>
+      
