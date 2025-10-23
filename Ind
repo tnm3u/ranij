@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Premium IPTV — Corporate</title>
+  <meta name="description" content="Professional corporate IPTV provider — plans, portfolio, testimonials, admin team, FAQ and contact." />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .card-shadow { box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
+    .accent { color: #0284c7; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased leading-relaxed">
+  <!-- HEADER -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-sky-500 to-blue-500 flex items-center justify-center text-white font-bold">IP</div>
+        <div>
+          <div class="font-semibold text-lg">Premium IPTV</div>
+          <div class="text-xs text-gray-500">Corporate Solutions</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-gray-600">
+        <a href="#features" class="hover:text-blue-600">Features</a>
+        <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+        <a href="#pricing" class="hover:text-blue-600">Pricing</a>
+        <a href="#testimonials" class="hover:text-blue-600">Testimonials</a>
+        <a href="#team" class="hover:text-blue-600">Team</a>
+        <a href="#contact" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded font-medium">Contact</a>
+      </nav>
+      <button id="nav-toggle" class="md:hidden text-gray-600"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Enterprise-grade <span class="accent">IPTV</span> solutions for modern networks</h1>
+      <p class="mt-4 text-gray-600 max-w-xl">Reliable streaming infrastructure, robust admin tools, cost-effective pricing plans, and an experienced technical team — built for scale and uptime.</p>
+      <div class="mt-8 flex gap-4">
+        <a href="#pricing" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-semibold">View Plans</a>
+        <a href="#portfolio" class="px-6 py-3 border border-blue-600 text-blue-600 hover:bg-blue-50 rounded-md font-semibold">Our Work</a>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-2xl p-6 card-shadow">
+      <div class="w-full h-48 bg-gray-100 flex items-center justify-center text-gray-400">Video Preview Placeholder</div>
+      <div class="mt-4 text-sm text-gray-600 flex justify-between">
+        <span>99.9% Uptime</span><span>24/7 Support</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="bg-white py-16 border-t">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center">Features</h2>
+      <p class="text-gray-600 text-center mt-2">All-in-one IPTV management and delivery suite.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-50 rounded-lg card-shadow">
+          <i class="fa-solid fa-server fa-2x text-blue-600"></i>
+          <h3 class="mt-4 font-semibold">Scalable CDN</h3>
+          <p class="text-gray-600 text-sm mt-2">Global content delivery with high redundancy and adaptive bitrate streaming.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg card-shadow">
+          <i class="fa-solid fa-user-gear fa-2x text-blue-600"></i>
+          <h3 class="mt-4 font-semibold">Admin Control</h3>
+          <p class="text-gray-600 text-sm mt-2">Comprehensive management dashboard for users, channels, and analytics.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg card-shadow">
+          <i class="fa-solid fa-shield-halved fa-2x text-blue-600"></i>
+          <h3 class="mt-4 font-semibold">Secure Platform</h3>
+          <p class="text-gray-600 text-sm mt-2">Encrypted token access, DRM support, and full compliance tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center">Our Portfolio</h2>
+      <p class="text-gray-600 text-center mt-2">Recent IPTV integrations and deployments.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg card-shadow overflow-hidden">
+          <div class="w-full h-40 bg-gray-100 flex items-center justify-center text-gray-500">Client A</div>
+          <div class="p-4">
+            <h4 class="font-semibold">ISP Network Solution</h4>
+            <p class="text-sm text-gray-600 mt-2">End-to-end IPTV infrastructure for telecom operators.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg card-shadow overflow-hidden">
+          <div class="w-full h-40 bg-gray-100 flex items-center justify-center text-gray-500">Client B</div>
+          <div class="p-4">
+            <h4 class="font-semibold">OTT Retail Platform</h4>
+            <p class="text-sm text-gray-600 mt-2">Custom front-end and billing integration for retail IPTV resellers.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg card-shadow overflow-hidden">
+          <div class="w-full h-40 bg-gray-100 flex items-center justify-center text-gray-500">Client C</div>
+          <div class="p-4">
+            <h4 class="font-semibold">Corporate Streaming</h4>
+            <p class="text-sm text-gray-600 mt-2">Secure IPTV for enterprise communication and training.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="bg-white py-16 border-t">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold">Pricing Plans</h2>
+      <p class="text-gray-600 mt-2">Flexible options for every scale of IPTV business.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-50 rounded-lg card-shadow">
+          <h3 class="font-semibold text-lg">Starter</h3>
+          <div class="text-3xl font-bold mt-2">$49<span class="text-base text-gray-500">/mo</span></div>
+          <ul class="text-sm text-gray-600 mt-4 space-y-2">
+            <li>Up to 200 concurrent users</li>
+            <li>Email support</li>
+          </ul>
+          <a href="#contact" class="mt-6 inline-block px-5 py-2 bg-blue-600 text-white rounded font-semibold">Start Now</a>
+        </div>
+        <div class="p-6 bg-blue-600 text-white rounded-lg card-shadow">
+          <h3 class="font-semibold text-lg">Business</h3>
+          <div class="text-3xl font-bold mt-2">$199<span class="text-base text-blue-100">/mo</span></div>
+          <ul class="text-sm mt-4 space-y-2">
+            <li>Up to 5,000 concurrent users</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#contact" class="mt-6 inline-block px-5 py-2 bg-white text-blue-600 rounded font-semibold">Start Trial</a>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg card-shadow">
+          <h3 class="font-semibold text-lg">Enterprise</h3>
+          <div class="text-3xl font-bold mt-2">Custom</div>
+          <ul class="text-sm text-gray-600 mt-4 space-y-2">
+            <li>Unlimited streaming</li>
+            <li>Dedicated support</li>
+          </ul>
+          <a href="#contact" class="mt-6 inline-block px-5 py-2 border border-blue-600 text-blue-600 rounded font-semibold">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold">What Clients Say</h2>
+      <p class="text-gray-600 mt-2">Trusted by networks and resellers worldwide.</p>
+      <div class="mt-8 bg-white p-8 rounded-lg card-shadow">
+        <blockquote class="text-gray-700 italic">“Exceptional uptime and excellent support — our operations improved dramatically.”</blockquote>
+        <div class="mt-4 text-sm text-gray-500">— Maria K., Operations Head</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="py-16 bg-white border-t">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold">Our Team</h2>
+      <p class="text-gray-600 mt-2">Dedicated professionals powering your IPTV success.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+          <div class="w-24 h-24 mx-auto bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xl font-semibold">AK</div>
+          <h4 class="mt-4 font-semibold">A. Kumar</h4>
+          <p class="text-sm text-gray-600">Engineering Head</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+          <div class="w-24 h-24 mx-auto bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xl font-semibold">MR</div>
+          <h4 class="mt-4 font-semibold">M. Reddy</h4>
+          <p class="text-sm text-gray-600">Operations Manager</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+          <div class="w-24 h-24 mx-auto bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xl font-semibold">LS</div>
+          <h4 class="mt-4 font-semibold">L. Santos</h4>
+          <p class="text-sm text-gray-600">Client Success Lead</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h3 class="text-2xl font-semibold">Get in Touch</h3>
+        <p class="text-gray-600 mt-2">We’ll respond within one business day.</p>
+        <div class="mt-6 space-y-4">
+          <div class="p-4 bg-white rounded card-shadow">
+            <div class="text-sm text-gray-500">Email</div>
+            <div class="font-medium">sales@premiumiptv.example</div>
+          </div>
+          <div class="p-4 bg-white rounded card-shadow">
+            <div class="text-sm text-gray-500">Office</div>
+            <div class="font-medium">Mumbai, India</div>
+          </div>
+        </div>
+      </div>
+      <form class="bg-white p-6 rounded-lg card-shadow">
+        <label class="block text-sm text-gray-600">Name</label>
+        <input class="mt-1 w-full p-3 rounded border border-gray-300 focus:ring-2 focus:ring-blue-500" placeholder="Your name" />
+        <label class="block text-sm text-gray-600 mt-4">Email</label>
+        <input class="mt-1 w-full p-3 rounded border border-gray-300 focus:ring-2 focus:ring-blue-500" placeholder="email@company.com" />
+        <label class="block text-sm text-gray-600 mt-4">Message</label>
+        <textarea class="mt-1 w-full p-3 rounded border border-gray-300 focus:ring-2 focus:ring-blue-500" rows="4" placeholder="Your message"></textarea>
+        <div class="mt-4 text-right">
+          <button class="px-4 py-2 bg-blue-600 text-white rounded font-semibold">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-500">
+    © <span id="year"></span> Premium IPTV — All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('nav-toggle').addEventListener('click', () => {
+      alert('Mobile menu placeholder');
+    });
+  </script>
+</body>
+</html>
