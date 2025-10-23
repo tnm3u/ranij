@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecureLife Insurance</title>
+
+  <!-- ✅ Tailwind CDN (working latest version) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-blue-900">Ranij
+     <span class="text-yellow-500">.</span></h1>
+      <nav class="hidden md:flex space-x-8 font-medium">
+        <a href="#home" class="hover:text-blue-700">Home</a>
+        <a href="#about" class="hover:text-blue-700">About</a>
+        <a href="#schemes" class="hover:text-blue-700">Schemes</a>
+        <a href="#contact" class="hover:text-blue-700">Contact</a>
+      </nav>
+      <a href="#contact" class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">Get a Quote</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Protect Your Future with Confidence
+        </h2>
+        <p class="text-gray-200 mb-8">
+          Discover flexible and affordable insurance plans that secure what matters most — your family, health, and business.
+        </p>
+        <div class="space-x-4">
+          <a href="#schemes" class="bg-yellow-400 text-blue-900 px-5 py-3 font-semibold rounded-lg hover:bg-yellow-300">Explore Plans</a>
+          <a href="#contact" class="border border-white px-5 py-3 rounded-lg hover:bg-white hover:text-blue-900 font-semibold">Contact Us</a>
+        </div>
+      </div>
+      <img src="https://cdn.pixabay.com/photo/2017/06/13/22/42/life-insurance-2408959_1280.png" alt="Insurance Family" class="w-full rounded-xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-blue-900 mb-6">About SecureLife</h3>
+      <p class="text-gray-600 max-w-3xl mx-auto mb-10">
+        With over 20 years of excellence, SecureLife Insurance offers innovative, transparent, and customer-driven insurance solutions — ensuring a secure tomorrow for every client.
+      </p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 border rounded-xl shadow-sm hover:shadow-md">
+          <h4 class="font-semibold text-blue-800 mb-2">20+ Years of Trust</h4>
+          <p class="text-gray-500">Serving families and enterprises across the country with commitment and care.</p>
+        </div>
+        <div class="p-6 border rounded-xl shadow-sm hover:shadow-md">
+          <h4 class="font-semibold text-blue-800 mb-2">Comprehensive Portfolio</h4>
+          <p class="text-gray-500">Health, Life, and Business insurance options tailored to your needs.</p>
+        </div>
+        <div class="p-6 border rounded-xl shadow-sm hover:shadow-md">
+          <h4 class="font-semibold text-blue-800 mb-2">Dedicated Support</h4>
+          <p class="text-gray-500">24/7 professional assistance and easy claim management process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSURANCE SCHEMES -->
+  <section id="schemes" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-blue-900 mb-10">Insurance Schemes</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition">
+          <h4 class="text-xl font-semibold text-blue-800 mb-3">Health Insurance</h4>
+          <p class="text-gray-600 mb-4">Comprehensive coverage for medical emergencies and preventive care.</p>
+          <a href="#" class="text-blue-700 font-semibold hover:underline">Download PDF</a>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition">
+          <h4 class="text-xl font-semibold text-blue-800 mb-3">Life Insurance</h4>
+          <p class="text-gray-600 mb-4">Protect your family’s future with affordable life plans.</p>
+          <a href="#" class="text-blue-700 font-semibold hover:underline">Download PDF</a>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition">
+          <h4 class="text-xl font-semibold text-blue-800 mb-3">Business Insurance</h4>
+          <p class="text-gray-600 mb-4">Customized financial protection for enterprises and startups.</p>
+          <a href="#" class="text-blue-700 font-semibold hover:underline">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-20 bg-blue-900 text-white text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Contact & Support</h3>
+      <p class="text-gray-200 mb-8">Need help choosing the right plan? Our support team is available 24/7 to guide you.</p>
+      <form class="bg-white text-blue-900 p-8 rounded-xl shadow-lg space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg">
+        <input type="email" placeholder="Email Address" class="w-full p-3 border rounded-lg">
+        <textarea placeholder="Your Message" class="w-full p-3 border rounded-lg"></textarea>
+        <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded-lg font-semibold hover:bg-blue-800">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-10">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+      <div>
+        <h4 class="text-white font-semibold mb-3">SecureLife Insurance</h4>
+        <p>Building protection and trust through innovation and care.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#about" class="hover:text-white">About Us</a></li>
+          <li><a href="#schemes" class="hover:text-white">Insurance Plans</a></li>
+          <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Resources</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white">Download Brochures</a></li>
+          <li><a href="#" class="hover:text-white">FAQs</a></li>
+          <li><a href="#" class="hover:text-white">Support Center</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Contact Us</h4>
+        <p>Email: support@securelife.com</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+    </div>
+    <div class="text-center mt-10 text-gray-500 text-sm">
+      © 2025 SecureLife Insurance Co. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+  </html>
+  
